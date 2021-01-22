@@ -6,9 +6,7 @@
 
   /* colors */
   --first-color: #f7bf59;
-  /* --first-color: #4070f4; */
-
-  --second-color: #0e2431;
+  --second-color: #2d363b;
 
   /* fonts & typography */
   --body-font: "Poppins", sans-serif;
@@ -286,7 +284,7 @@ img {
   align-items: center;
 }
 
-/* Projects */
+/* Work - Projects */
 .work__container {
   row-gap: 2rem;
 }
@@ -295,18 +293,25 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid black;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 5px 4px 25px rgba(1, 5, 8, 0.15);
 }
-.work__img img {
+.work__img {
   transition: 1s;
-  cursor: pointer;
   margin-bottom: var(--mb-2);
+  width: 100%;
 
   /* box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15); */
   /* border-radius: 0.5rem; */
   /* overflow: hidden; */
 }
+
+.work__name:hover {
+  color: var(--first-color);
+}
+
+/* .card__footer {
+  padding: 0.75rem 1.5rem;
+} */
 .work__img img:hover {
   transform: scale(1.1);
 }
@@ -319,6 +324,7 @@ img {
 
 .work__description {
   margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 /* CONTACT */
