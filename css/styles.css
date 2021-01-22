@@ -5,7 +5,9 @@
   --font-semi: 600;
 
   /* colors */
-  --first-color: #4070f4;
+  --first-color: #f7bf59;
+  /* --first-color: #4070f4; */
+
   --second-color: #0e2431;
 
   /* fonts & typography */
@@ -219,7 +221,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 230px;
+  width: 295px;
 }
 
 /*Buttons*/
@@ -263,15 +265,13 @@ img {
 .skills__data {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  position: relative;
+  /* align-items: center; */
+  /* position: relative; */
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-0);
   border-radius: 0.5rem;
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-
-  /* margin-bottom: var(--mb-0); */
 }
 
 .skills__icon {
@@ -283,6 +283,55 @@ img {
 .skills__names {
   display: flex;
   align-items: center;
+}
+
+/* Projects */
+.work__container {
+  row-gap: 2rem;
+}
+
+.work__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+}
+.work__img img {
+  transition: 1s;
+  cursor: pointer;
+  margin-bottom: var(--mb-2);
+
+  /* box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15); */
+  /* border-radius: 0.5rem; */
+  overflow: hidden;
+}
+.work__img img:hover {
+  transform: scale(1.1);
+}
+
+.work__name {
+  font-weight: var(--font-semi);
+  color: var(--second-color);
+}
+
+/* CONTACT */
+.contact__input {
+  width: 100%;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--second-color);
+  outline: none;
+  margin-bottom: var(--mb-4);
+}
+.contact__button {
+  display: block;
+  border: none;
+  outline: none;
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 1024px) {
