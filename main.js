@@ -4,7 +4,7 @@ const nav = document.getElementById("nav-menu");
 
 if (toggle && nav) {
   toggle.addEventListener("click", () => {
-    // console.log("clicked");
+    console.log("clicked");
     nav.classList.toggle("show");
   });
 }
@@ -51,6 +51,9 @@ sr.reveal(".skills__img", { delay: 600 });
 
 /*SCROLL WORK*/
 sr.reveal(".work__img", { interval: 200 });
+
+/*SCROLL EXPERIENCE*/
+sr.reveal(".experience__title", {});
 
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });

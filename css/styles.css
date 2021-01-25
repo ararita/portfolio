@@ -51,11 +51,11 @@ p {
   margin: 0;
 }
 
-ul {
+/* ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
+} */
 a {
   text-decoration: none;
 }
@@ -112,6 +112,11 @@ img {
 }
 
 /*===== NAV =====*/
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .nav {
   height: var(--header-height);
   display: flex;
@@ -129,6 +134,14 @@ img {
     padding: 2rem;
     background-color: var(--second-color);
     transition: 0.5s;
+  }
+  .experience__card {
+    padding: 1rem;
+  }
+  .experience__card h3,
+  p,
+  span {
+    text-align: center;
   }
 }
 .nav__item {
@@ -292,16 +305,26 @@ img {
   align-items: center;
 }
 
+/* experience */
+.experience__years {
+  color: rgba(7, 6, 6, 0.522);
+  padding-top: 0.5rem;
+}
+.experience__card {
+  padding-bottom: 1.5rem;
+}
 /* Work - Projects */
-.work__container {
+.work__container,
+.experience__container {
   row-gap: 2rem;
 }
 
-.work__card {
+.work__card,
+.experience__card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 5px 4px 25px rgba(1, 5, 8, 0.15);
+  box-shadow: 5px 4px 25px rgba(78, 82, 85, 0.15);
   margin-bottom: var(--mb-4);
 }
 .work__img {
@@ -331,6 +354,7 @@ img {
 .work__description {
   margin-bottom: var(--mb-2);
   text-align: center;
+  padding: 0 00.8rem;
 }
 
 /* CONTACT */
