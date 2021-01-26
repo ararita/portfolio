@@ -138,6 +138,9 @@ img {
   span {
     text-align: center;
   }
+  .about__text {
+    text-align: left;
+  }
 }
 .nav__item {
   margin-bottom: var(--mb-4);
@@ -460,5 +463,10 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1024px;
+    margin: 0 auto;
+    /* width: calc(100% - 2rem); */
+    /* margin-left: var(--mb-2);
+    margin-right: var(--mb-2); */
   }
 }
