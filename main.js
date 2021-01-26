@@ -53,7 +53,12 @@ sr.reveal(".skills__img", { delay: 600 });
 sr.reveal(".work__img", { interval: 200 });
 
 /*SCROLL EXPERIENCE*/
-sr.reveal(".experience__title", {});
+sr.reveal(".experience__card", {});
+
+// sr.reveal(".experience__title", {});
+// sr.reveal(".experience__company", {});
+// sr.reveal(".experience__years", {});
+// sr.reveal(".experience__description", {});
 
 /*SCROLL CONTACT*/
 sr.reveal(".contact__input", { interval: 200 });
