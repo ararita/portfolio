@@ -139,16 +139,13 @@ img {
   p {
     text-align: center;
   }
-  div .experience__img {
-    width: 100%;
+  .experience__img {
+    max-width: 100%;
   }
-  .experience__card div:nth-child(2) {
-    padding: 0 1rem 0 1rem;
-  }
-
   /* .experience__card div:nth-child(2) {
-    padding: 0 1rem 0 1rem;
+    padding: 0 2rem 5rem 2rem;
   } */
+
   .about__text {
     text-align: left;
   }
@@ -322,8 +319,8 @@ img {
   margin-bottom: var(--mb-4);
 }
 
-.experience__img {
-  width: 70%;
+.experience__card div:nth-child(2) {
+  padding: 0 2rem 0 2rem;
 }
 
 /* Work - Projects */
@@ -486,4 +483,12 @@ img {
     max-width: 1024px;
     margin: 0 auto;
   }
+
+  .experience__img {
+    width: 20%;
+  }
+  /* 
+  .experience__card div:nth-child(2) {
+    padding: 0 1rem 2rem 1rem;
+  } */
 }
