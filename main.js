@@ -53,7 +53,7 @@ sr.reveal(".skills__data", { interval: 200 });
 sr.reveal(".work", {});
 
 /*SCROLL EXPERIENCE*/
-sr.reveal(".experience__card", {});
+sr.reveal(".experience", {});
 
 // sr.reveal(".experience__title", {});
 // sr.reveal(".experience__company", {});
