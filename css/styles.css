@@ -149,6 +149,7 @@ img {
 
   .about__text {
     text-align: left;
+    margin-right: 1rem;
   }
 }
 .nav__item {
@@ -199,6 +200,13 @@ img {
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
+  }
+  .about__text {
+    text-align: left;
+    margin-right: 1rem;
+  }
+  .experience__img {
+    width: 40%;
   }
 }
 
