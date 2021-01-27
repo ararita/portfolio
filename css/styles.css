@@ -140,7 +140,8 @@ img {
     text-align: center;
   }
   .experience__img {
-    max-width: 100%;
+    max-width: 70%;
+    padding-top: 1rem;
   }
   /* .experience__card div:nth-child(2) {
     padding: 0 2rem 5rem 2rem;
